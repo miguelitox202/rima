@@ -29,7 +29,7 @@ body {
 }
 
 .buttons {
-    font-size: 1em;
+    font-size: 14px;
     padding: 7px 50px;
     border-radius: 9px;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -39,6 +39,7 @@ body {
     min-width: 320px;
     height: 45px;
     font-weight: bold;
+    text-align: justify;
 }
 
 .buttons:hover {
@@ -63,12 +64,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
+}
+
+#area {
+    font-size: 12px;
 }
 
 .container2 .container4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
 }
 
 header {
@@ -80,8 +87,8 @@ header {
 }
 
 .logo {
-    padding-top: 7px;
-    padding-right: 45px;
+    padding-top: 20px;
+    padding-right: 27px;
 }
 
 #servicios {
@@ -113,12 +120,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(
-        0deg,
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.705)
-    )
-    ,url(fotos-sin-corregir/foto-presentcion.JPG);
+    background-image: url(fotos-sin-corregir/fondo-de-seccion-contactos.png);
     background-size: auto;
     background-position: center, center;
 }
@@ -128,11 +130,13 @@ header {
     padding: 15px;
     background-color: #00001979;
     border-radius: 25px;
+    width: 294px;
 }
 
 .mns {
     border-radius: 9px;
     border: 1px;
+    width: 260px;
 }
 
 #botonMns {
@@ -146,6 +150,7 @@ footer {
     background-color: #000019;
     color: white;
     padding: 10px;
+    font-size: smaller;
 }
 
 .nav {
@@ -183,13 +188,14 @@ footer a:hover {
 
 .datos {
     font-weight: bold;
-    font-size: small;
+    font-size: 12px;
 }
 
 @media (min-width:640px) {
     .buttons {
-        width: 572px;
-        font-size: medium;
+        width: 872px;
+        height: 66px;
+        font-size: 38px;
         text-align: left;
     }
 
@@ -212,7 +218,7 @@ footer a:hover {
     }
 
     .buttons:nth-child(13){
-        margin-left: 427px;
+        margin-left: 425px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
@@ -233,13 +239,13 @@ footer a:hover {
     }
 
     #info .nosotros {
-        margin-left: 100px;
+        margin-left: 50px;
         margin-top: 40px;
         padding: 6px;
         padding-left: 20px;
         padding-right: 20px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 28px;
         border-radius: 20px;
         border: 0px;
         background-color: rgba(236, 106, 6, 0.5);
@@ -252,36 +258,42 @@ footer a:hover {
     }
 
     .container2 .container3 {
-        margin-left: 200px;
+        margin-left: 10px;
         justify-content: left;
         text-align: justify;
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .container3 .foto {
-        width: 300px;
-        height: 200px;
+        width: 470px;
+        height: 260px;
+        border-radius: 100px;
     }
 
     .container4 .foto {
-        width: 300px;
-        height: 200px;
+        width: 470px;
+        height: 260px;
+        border-radius: 100px;
     }
 
     .container2 .container4 {
-        margin-right: 200px;
+        margin-right: 10px;
         text-align: justify;
-        font-size: 18px;
+        font-size: 24px;
+    }
+
+    #area {
+        font-size: 24px;
     }
 
     #contacto {
         flex-direction: row;
         justify-content: center;
-        padding: 25px;
+        padding: 100px;
     }
 
     .correo {
-        width: 572px;
+        width: 575px;
         height: 322px;
         margin-right: 70px;
     }
@@ -292,11 +304,11 @@ footer a:hover {
     }
 
     .correo textarea {
-        height: 220px;
+        height: 209px;
     }
 
     .datos {
-        font-size: 16px;
+        font-size: 20px;
         margin-left: 70px;
     }
 
@@ -311,5 +323,22 @@ footer a:hover {
     .navmg img {
         width: 180px;
         height: 85px;
+    }
+
+    .nav {
+        font-size: 16px;
+    }
+
+    .direccion {
+        font-size: 16px;
+    }
+
+    header {
+        height: 179px;
+    }
+
+    #logo1 {
+        width: 250px;
+        height: 122px;
     }
 }
