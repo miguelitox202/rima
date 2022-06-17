@@ -9,37 +9,55 @@ body {
 }
 
 .box1 {
-    display: none;
+    font-size: 12px;
+    padding: 7px;
+    max-width: 872px;
+    min-width: 320px;
+    text-align: justify;
 }
 
 .box2 {
-    display: none;
+    font-size: 12px;
+    padding: 7px;
+    max-width: 872px;
+    min-width: 320px;
+    text-align: justify;
 }
 
 .box3 {
-    display: none;
+    font-size: 12px;
+    padding: 7px;
+    max-width: 872px;
+    min-width: 320px;
+    text-align: justify;
 }
 
 .box4 {
-    display: none;
+    font-size: 12px;
+    padding: 7px;
+    max-width: 872px;
+    min-width: 320px;
+    text-align: justify;
 }
 
 .box5 {
-    display: none;
+    font-size: 12px;
+    padding: 7px;
+    max-width: 872px;
+    min-width: 320px;
+    text-align: justify;
 }
 
 .buttons {
     font-size: 14px;
-    padding: 7px 50px;
+    padding: 7px;
     border-radius: 9px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgba(236, 106, 6, 0.7);
     margin: 5px;
     max-width: 872px;
     min-width: 320px;
-    height: 45px;
     font-weight: bold;
-    text-align: justify;
 }
 
 .buttons:hover {
@@ -194,7 +212,6 @@ footer a:hover {
 @media (min-width:640px) {
     .buttons {
         width: 872px;
-        height: 66px;
         font-size: 38px;
         text-align: left;
     }
@@ -203,34 +220,34 @@ footer a:hover {
         margin-left: 70px;
     }
 
-    .buttons:nth-child(4){
+    .buttons:nth-child(2){
         margin-left: 170px;
     }
 
-    .buttons:nth-child(7){
+    .buttons:nth-child(3){
         margin-left: 254px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
-    .buttons:nth-child(10){
+    .buttons:nth-child(4){
         margin-left: 347px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
-    .buttons:nth-child(13){
+    .buttons:nth-child(5){
         margin-left: 425px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
-    .buttons:nth-child(7):hover {
+    .buttons:nth-child(3):hover {
         background-color: rgba(240, 161, 101, 0.5);
     }
 
-    .buttons:nth-child(10):hover {
+    .buttons:nth-child(4):hover {
         background-color: rgba(240, 161, 101, 0.5);
     }
 
-    .buttons:nth-child(13):hover {
+    .buttons:nth-child(5):hover {
         background-color: rgba(240, 161, 101, 0.5);
     }
 
@@ -340,5 +357,30 @@ footer a:hover {
     #logo1 {
         width: 250px;
         height: 122px;
+    }
+
+    .box1 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .box2 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .box3 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .box4 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .box5 {
+        font-size: 20px;
+        margin-left: 20px;
     }
 }
