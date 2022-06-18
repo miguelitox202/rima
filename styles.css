@@ -110,6 +110,7 @@ header {
 }
 
 #servicios {
+    margin: 0px;
     width: auto;
     background-image: linear-gradient(
         0deg,
