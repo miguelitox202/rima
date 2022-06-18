@@ -51,13 +51,15 @@ body {
 .buttons {
     font-size: 14px;
     padding: 7px;
-    border-radius: 9px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgba(236, 106, 6, 0.7);
     margin-bottom: 7px;
     max-width: 872px;
     min-width: 320px;
     font-weight: bold;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
 }
 
 .buttons:first-child {
@@ -216,6 +218,7 @@ footer a:hover {
 
 @media (min-width:640px) {
     .buttons {
+        border-radius: 20px 20px 7px 7px;
         width: 872px;
         font-size: 38px;
         text-align: left;
