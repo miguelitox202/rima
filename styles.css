@@ -65,12 +65,12 @@ body {
 }
 
 .container {
-    max-width: 1450;
+    max-width: 1450px;
     margin: auto;
 }
 
 .container2 {
-    max-width: 1450;
+    max-width: 1450px;
     margin: auto;
     margin-top: 25px;
     display: flex;
@@ -160,7 +160,6 @@ header {
 #botonMns {
     border-radius: 10px;
     border: 2px solid;
-    color: 0,0,0,0;
     background-color: rgba(236, 106, 6, 0.7);
 }
 
