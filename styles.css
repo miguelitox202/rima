@@ -54,10 +54,14 @@ body {
     border-radius: 9px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgba(236, 106, 6, 0.7);
-    margin: 5px;
+    margin-bottom: 7px;
     max-width: 872px;
     min-width: 320px;
     font-weight: bold;
+}
+
+.buttons:first-child {
+    margin-top: 0px;
 }
 
 .buttons:hover {
@@ -67,6 +71,7 @@ body {
 .container {
     max-width: 1450px;
     margin: auto;
+    padding: 10px 10px 3px 10px;
 }
 
 .container2 {
