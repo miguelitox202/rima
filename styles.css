@@ -73,7 +73,8 @@ details summary::-webkit-details-marker {
 .container {
     max-width: 1450px;
     margin: auto;
-    padding: 10px 10px 3px 10px;
+    padding-left: 0px;
+    padding: 10px 10px 3px 0px;
 }
 
 .container2 {
@@ -142,8 +143,19 @@ header {
     flex-direction: row;
 }
 
-.carrusel {
+#carrusel {
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carruselMobile {
+    display: block;
+}
+
+.carruselPC {
+    display: none;
 }
 
 #contacto {
@@ -396,8 +408,11 @@ footer a:hover {
         margin-left: 20px;
     }
 
-    .carrusel {
-        width: 1300px;
-        justify-content: center;
+    .carruselMobile {
+        display: none;
+    }
+    
+    .carruselPC {
+        display: block;
     }
 }
