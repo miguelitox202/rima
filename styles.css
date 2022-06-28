@@ -55,10 +55,10 @@ body {
     margin-bottom: 7px;
     max-width: 872px;
     min-width: 320px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
-details summary::-webkit-details-marker {
+details summary::marker {
     display: none;
 }
 
