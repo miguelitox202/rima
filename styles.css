@@ -125,7 +125,7 @@ header {
         rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0.705)
     )
-    ,url(fotos-sin-corregir/foto-presentcion.JPG);
+    ,url(fotos-sin-corregir-opt/foto-presentcion.JPG);
     background-size: auto;
     background-position: center, center;
 }
@@ -135,12 +135,25 @@ header {
 }
 
 .foto {
-    border-radius: 80px 20px 80px 20px;
+    border-radius: 50px 5px 50px 5px;
+}
+
+.foto2 {
+    border-radius: 5px 50px 5px 50px;
 }
 
 .listas {
     display: flex;
     flex-direction: row;
+}
+
+.listas ul {
+    list-style: none;
+}
+
+.listas ul .icono {
+    margin-right: 3px;
+    margin-bottom: 4px;
 }
 
 #carrusel {
@@ -162,7 +175,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(fotos-sin-corregir/fondo-de-seccion-contactos.png);
+    background-image: url(fotos-sin-corregir-opt/fondo-de-seccion-contactos.png);
     background-size: auto;
     background-position: center, center;
 }
@@ -277,6 +290,11 @@ footer a:hover {
 
     #info .nosotros {
         display: block;
+        width: 353px;
+        height: 65px;
+        border-radius: 15px;
+        line-height: 59px;
+        text-align: center;
     }
 
     #info .nosotros {
@@ -286,8 +304,7 @@ footer a:hover {
         padding-left: 20px;
         padding-right: 20px;
         font-weight: bold;
-        font-size: 28px;
-        border-radius: 20px;
+        font-size: 48px;
         border: 0px;
         background-color: rgba(236, 106, 6, 0.5);
     }
@@ -296,25 +313,30 @@ footer a:hover {
         flex-direction: row;
         text-align: center;
         justify-content: space-between;
+        padding: 15px;
     }
 
     .container2 .container3 {
-        margin-left: 10px;
+        margin-left: 20px;
         justify-content: left;
         text-align: justify;
         font-size: 24px;
     }
 
-    .container3 .foto {
-        width: 470px;
-        height: 260px;
-        border-radius: 80px 20px 80px 20px;
+    .container2 .container4 {
+        margin-top: 50px;
     }
 
-    .container4 .foto {
-        width: 470px;
-        height: 260px;
-        border-radius: 80px 20px 80px 20px;
+    .container3 .foto {
+        width: 570px;
+        height: 360px;
+        border-radius: 125px 7px 125px 7px;
+    }
+
+    .container4 .foto2 {
+        width: 570px;
+        height: 360px;
+        border-radius: 7px 125px 7px 125px;
     }
 
     .container2 .container4 {
