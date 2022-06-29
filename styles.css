@@ -107,7 +107,6 @@ details summary::marker {
 header {
     padding: 5px;
     text-align: right;
-    max-width: 1400px;
     height: 111px;
     background-color: #000019;
 }
@@ -196,8 +195,12 @@ header {
 
 #botonMns {
     border-radius: 10px;
-    border: 2px solid;
+    border: 0px solid;
     background-color: rgba(236, 106, 6, 0.7);
+}
+
+#text {
+    resize: none;
 }
 
 footer {
@@ -243,6 +246,10 @@ footer a:hover {
 .datos {
     font-weight: bold;
     font-size: 12px;
+}
+
+.datos ul {
+    list-style: none;
 }
 
 @media (min-width:640px) {
