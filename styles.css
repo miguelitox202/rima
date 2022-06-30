@@ -155,6 +155,24 @@ header {
     margin-bottom: 4px;
 }
 
+.telefono {
+    text-decoration: none;
+    color: black;
+}
+
+.telefono:hover {
+    color: rgba(236, 106, 6, 0.7);
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+}
+
+.mail:hover {
+    color: rgba(236, 106, 6, 0.7);
+}
+
 #carrusel {
     margin: 15px;
     display: flex;
@@ -331,7 +349,7 @@ footer a:hover {
     }
 
     .container2 .container4 {
-        margin-top: 50px;
+        margin-top: 47px;
     }
 
     .container3 .foto {
