@@ -161,7 +161,7 @@ header {
 
 .contactoMob a p {
     color: white;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-bottom: 0px;
     font-size: 17px;
 }
@@ -293,6 +293,7 @@ footer a:hover {
 .datos {
     font-weight: bold;
     font-size: 12px;
+    margin-top: 10px;
 }
 
 .datos ul {
