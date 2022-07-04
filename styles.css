@@ -58,10 +58,6 @@ body {
     font-weight: 500;
 }
 
-details summary::marker {
-    display: none;
-}
-
 .buttons:first-child {
     margin-top: 0px;
 }
@@ -139,6 +135,39 @@ header {
 
 .foto2 {
     border-radius: 5px 50px 5px 50px;
+}
+
+.contactoMob {
+    width: 200px;
+    height: 70px;
+    margin: 34px;
+}
+
+.contactoMob button {
+    background-color: #EC6A06;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 70px;
+}
+
+.contactoMob a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.contactoMob a p {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.contactoMob a img {
+    margin-left: 10px;
 }
 
 .listas {
@@ -463,5 +492,9 @@ footer a:hover {
         display: block;
         width: 1000px;
         height: 500px;
+    }
+
+    .contactoMob {
+        display: none;
     }
 }
