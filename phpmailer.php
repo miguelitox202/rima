@@ -12,9 +12,8 @@ $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
 
 $body = <<<HTML
-    <h1>Contacto desde la web</h1>
     <p>De: $email</p>
-    <h2>Mensaje</h2>
+    <h6>Mensaje:</h6>
     $mensaje
 HTML;
 
