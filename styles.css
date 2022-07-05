@@ -241,9 +241,12 @@ header {
 }
 
 #botonMns {
+    width: 60px;
+    height: 35px;
     border-radius: 10px;
     border: 0px solid;
     background-color: rgba(236, 106, 6, 0.7);
+    margin-left: 90px;
 }
 
 #text {
@@ -300,7 +303,17 @@ footer a:hover {
     list-style: none;
 }
 
-@media (min-width:640px) {
+.partes {
+    margin-bottom: 5px;
+}
+
+#botondiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width:720px) {
     .buttons {
         border-radius: 20px 20px 7px 7px;
         width: 872px;
@@ -309,25 +322,25 @@ footer a:hover {
     }
 
     .buttons:first-child {
-        margin-left: 70px;
+        margin-left: 0px;
     }
 
     .buttons:nth-child(2){
-        margin-left: 170px;
+        margin-left: 100px;
     }
 
     .buttons:nth-child(3){
-        margin-left: 254px;
+        margin-left: 184px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
     .buttons:nth-child(4){
-        margin-left: 347px;
+        margin-left: 277px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
     .buttons:nth-child(5){
-        margin-left: 425px;
+        margin-left: 355px;
         background-color: rgba(236, 106, 6, 0.5);
     }
 
@@ -497,5 +510,9 @@ footer a:hover {
 
     .contactoMob {
         display: none;
+    }
+
+    #botonMns {
+        margin-left: 230px;
     }
 }

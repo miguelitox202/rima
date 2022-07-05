@@ -311,13 +311,16 @@
     </section>
     <section id="contacto">
         <div class="correo">
-            <form action="administracion@rimaoil.com" method="post">
+            <form action="phpmailer.php" method="post">
+              <div class="partes">
                 <input type="email" name="email" id="email" placeholder="  Email" class="mns">
-                <br>
-                <br>
+              </div>
+              <div class="partes">
                 <textarea name="mensaje" id="text" cols="30" rows="10" placeholder=" Mensaje..." class="mns"></textarea>
-                <br>
+              </div>
+              <div class="partes" id="botondiv">
                 <input type="submit" value="Enviar" id="botonMns">
+              </div>
             </form>
         </div>
         <div class="datos">
