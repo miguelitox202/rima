@@ -13,13 +13,13 @@ $mensaje = $_POST['mensaje'];
 
 $body = <<<HTML
     <p>De: $email</p>
-    <h6>Mensaje:</h6>
+    <p>Mensaje:</p>
     $mensaje
 HTML;
 
 $mailer = new PHPMailer();
 $mailer->setFrom( $email );
-$mailer->addAddress('untalmiguel51@gmail.com','Rima Oil');
+$mailer->addAddress('administracion@rimaoil.com','Rima Oil');
 $mailer->msgHTML($body);
 $mailer->AltBody = strip_tags($body);
 $mailer->CharSet = 'UTF-8';
