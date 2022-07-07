@@ -1,0 +1,4 @@
+Sitemap: https://rimaoil.com/sitemap.xml
+
+User-agent: *
+Allow: /index.html
