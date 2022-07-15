@@ -56,6 +56,7 @@ body {
     max-width: 872px;
     min-width: 320px;
     font-weight: 500;
+    color: black;
 }
 
 .buttons:first-child {
@@ -115,12 +116,7 @@ header {
 #servicios {
     margin: 0px;
     width: auto;
-    background-image: linear-gradient(
-        0deg,
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.705)
-    )
-    ,url(fotos-sin-corregir-opt/foto-presentcion.JPG);
+    background-image: url(fotos-sin-corregir-opt/fondo-service.png);
     background-size: auto;
     background-position: center, center;
 }
