@@ -327,29 +327,14 @@ footer a:hover {
 
     .buttons:nth-child(3){
         margin-left: 184px;
-        background-color: rgba(236, 106, 6, 0.5);
     }
 
     .buttons:nth-child(4){
         margin-left: 277px;
-        background-color: rgba(236, 106, 6, 0.5);
     }
 
     .buttons:nth-child(5){
         margin-left: 355px;
-        background-color: rgba(236, 106, 6, 0.5);
-    }
-
-    .buttons:nth-child(3):hover {
-        background-color: rgba(240, 161, 101, 0.5);
-    }
-
-    .buttons:nth-child(4):hover {
-        background-color: rgba(240, 161, 101, 0.5);
-    }
-
-    .buttons:nth-child(5):hover {
-        background-color: rgba(240, 161, 101, 0.5);
     }
 
     #info .nosotros {
