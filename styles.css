@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     margin: 0;
     font-family: Montserrat;
 }
@@ -116,7 +116,7 @@ header {
 #servicios {
     margin: 0px;
     width: auto;
-    background-image: url(fotos-sin-corregir-opt/fondo-service.png);
+    background: linear-gradient(to bottom, #000019, #ffffff);
     background-size: auto;
     background-position: center, center;
 }
